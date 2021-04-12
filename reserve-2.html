@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- menu.ejs 取消index的 footer -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PETPET</title>
+  <!-- material disign  -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+  <!--material disign  -->
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="./assets/js/all.js">
+  <!-- js -->
+</head>
+
+<body>
+  <div class="container header">
+    <div class="row navbar d-flex">
+      <div>
+        <h1 class="logo">
+          <a href="index.html" title="PETPET Company">PETPET</a>
+        </h1>
+      </div> 
+      <!-- nav-mobile-show classname -->
+        <ul class="navbar-menu d-flex ml-auto">
+          <li><a href="service.html" title="appointment service">預約服務</a></li>
+          <li><a href="#" title="become a babysitter">成為寵物保母</a></li>
+          <li><a href="login.html" title="login" >登入</a></li>
+        </ul>
+        <div class="menu-toggler">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid reserve-page">
+    <form class="reserve-form">
+        <!-- content  info-->
+
+
+        <div class="reserve-form-content">
+            <h2>預約項目</h2>
+
+
+            <div class="reserve-form-info">
+                <div class="reserve-data">
+                    <label for="NameOfLord">毛孩姓名</label>
+                
+                    <input type="text" id="NameOfLord" placeholder="請輸入毛孩滴名稱">
+                
+                    <label for="OwnerName">奴才姓名</label>
+                
+                    <input type="text" id="OwnerName" placeholder="請輸入奴才滴名稱">
+                
+                    <label for="email">Email</label>
+                
+                    <input type="email" name="email" id="email" placeholder="Example@gmail.com">
+                
+                    <label for="phone">連絡電話</label>
+                
+                    <input type="tel" name="phone" id="phone" placeholder="4882-5252">
+                </div>
+            </div>
+        </div>
+        <!-- need -->
+        <!-- <div class="reserve-form-content">
+            <h2>預約項目</h2>
+            <form class="reserve-form-content-info">
+                <label for="lord">毛孩姓名</label>
+                <input type="text" id="lord" placeholder="請輸入毛孩滴名稱">
+
+                <label for="owner">奴才名稱</label>
+                <input type="text" id="owner" placeholder="請輸入奴才滴名稱">
+
+                <label for="">Email</label>
+                <input type="email" name="email" id="email" placeholder="Example@gmail.com">
+
+                <label for="phone">連絡電話</label>
+                <input type="tel" name="phone" id="phone">
+            </form>
+        </div> -->
+        <!-- need -->
+        <!-- store -->
+        <div class="reserve-form-store">
+            <div class="reserve-form-store-logo">
+                <img src="./assets/images/homestay-3.jpeg" alt="cat&girl">
+            </div>
+            <div class="reserve-form-store-text">
+                <h3>毛孩好家
+                    <span class="material-icons" style="color:#f0ad25">
+                        star
+                        star
+                        star
+                        star
+                        star
+                    </span>
+                </h3>
+                <br>
+                <div class="location">
+                    <span class="material-icons order-1">
+                        location_on
+                    </span>
+                    <h4>
+                        新竹縣、竹北市、貓貓里
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <!-- steps -->
+        <div class="reserve-form-steps">
+            <div class="reserve-form-steps-line">
+                <p>預約項目</p>
+                <p class="font-weight-bold">預約資料</p>
+                <p>付款資訊</p>
+            </div>
+            <input type="button" value="下一步" onclick="location.href='reserve-3.html'" class="btn btn-primary next-step">
+        </div>
+    </form>
+</div>
+
+  <!-- menu取消footer -->
+  
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

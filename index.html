@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- material disign  -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+  <!--material disign  -->
+<!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+  <!-- jquery -->
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="./assets/js/swiper.js">
+<!-- swiper -->
+  <link rel="stylesheet" href="./assets/js/all.js">
+  <link rel="stylesheet" href="./assets/style/all.css">
+
+
+  <title>
+    PETPET
+  </title>
+  
+</head>
+
+<body>
+  <div class="container header">
+    <div class="row navbar d-flex">
+      <div>
+        <h1 class="logo">
+          <a href="index.html" title="PETPET Company">PETPET</a>
+        </h1>
+      </div> 
+      <!-- nav-mobile-show classname -->
+        <ul class="navbar-menu d-flex ml-auto">
+          <li><a href="service.html" title="appointment service">預約服務</a></li>
+          <li><a href="detail.html" title="become a babysitter">觀看詳細資料</a></li>
+          <li><a href="login.html" title="login" >登入</a></li>
+        </ul>
+        <div class="menu-toggler">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  
+
+<div class="container-fluid ">
+  <section class="pet-service">
+    <div class="pet-service-banner">
+      <a href="#">
+        <img src="./assets/images/index-1.png" alt="home-banner-dig&cats" class="pet-banner">
+      </a>
+    </div>
+      <div class="pet-service-content">
+        <p class="text-secondary">
+          寵物服務，盡在PETPET </p>
+
+        <p class="text-secondary">當您的毛小孩有需要時，
+        </br class="mobile-show"> 幫您找到最合適的服務者 !</p>
+
+        <form class="d-flex">
+          <select name="Breeds" class="breeds" >
+            <option disabled selected>Breeds</option>
+
+            <optgroup label="Cats">
+              
+              <option>Tiger</option>
+              <option>Leopard</option>
+              <option>American Short hair</option>
+            </optgroup>
+            <optgroup label="Dogs">
+              <option>Golden retriever</option>
+              <option>Corgi</option>
+              <option>
+                Shiba Inu</option>
+            </optgroup>
+          </select>
+
+          <select name="services" class="services">
+            <option disabled selected>Services</option>
+
+            <optgroup label="Clean">
+              <option>Cutting hairs</option>
+              <option>Washing</option>
+              <option>Drying</option>
+            </optgroup>
+            <optgroup label="Home-care" class="home-care">
+              <option>Visit</option>
+              <option>Evaluation</option>
+              <option>Quotation Price</option>
+            </optgroup>
+          </select>
+
+          <select name="Location" class="Location">
+            <option disabled selected>Location</option>
+
+            <optgroup label="City">
+              <option>Hsin-Chu</option>
+              <option>Taipei</option>
+              <option>Chia-Yi</option>
+            </optgroup>
+            <optgroup label="Town">
+              <option>Chutung</option>
+              <option>Xi-Tung</option>
+              <option>Erlang</option>
+            </optgroup>
+          </select>
+
+          <input type="submit" value="Search" class="btn btn-primary rounded-0">
+        </form>
+      </div>
+
+      
+      
+    
+  </section>
+
+  <!-- jump-button -->
+  <div class="go-down-button">
+    <a href="#baby-sitter" class="btn btn-primary rounded-circle go-down"></a>
+  </div>
+  <!-- jump-button -->
+
+</div>
+
+<!-- index-banner index-service-content -->
+
+<!--index-babysitter-->
+
+<div class="container">
+
+
+
+  <section class="baby-sitter" id="baby-sitter">
+    <div class="baby-sitter-text">
+      <h3 class="font-weight-bold text-secondary">本月熱門保母</h3> 
+      <p class="text-secondary font-weight-bold">即時了解您的需求，安排最適合毛孩的寵物保母 !</p>
+    </div>
+
+    <!-- swiper -->
+    <!-- Slider main container -->
+<div class="swiper-container">
+  <!-- Additional required wrapper -->
+  <ul class="baby-sitter-list swiper-wrapper px-0">
+    <!-- Slides -->
+    <li class="swiper-slide baby-sitter-list-item-1">
+      <div class="list-banner"></div>
+      <div class="list-text text-secondary font-weight-bold">
+        <div class="avatar">
+          <img src="./assets/images/person-1.png" alt="Jamie">
+        </div>
+        <h4 >Jamie</h4>
+        <p>寄宿、美容、寵物行為訓練</p>
+        <a href="#" class="btn btn-primary list-appointment">預約</a>
+
+        <div class="list-feedback">
+          <div class="list-text-review">
+            <p>獲得評價</p>
+            <p>198 <span>則</span></p>
+          </div>
+          <div class="list-text-completed">
+            <p>已完成訂單</p>
+            <p>580<span>件</span></p>
+          </div>
+        </div>
+        
+
+      </div>
+    </li>
+    <li class="swiper-slide baby-sitter-list-item-2">
+      <div class="list-banner"></div>
+      <div class="list-text text-secondary font-weight-bold">
+        <div class="avatar">
+          <img src="./assets/images/person-2.png" alt="Jamie">
+        </div>
+        <h4 >Tony</h4>
+        <p>美容、寵物行為訓練</p>
+        <a href="#" class="btn btn-primary list-appointment">預約</a>
+
+        <div class="list-feedback">
+          <div class="list-text-review">
+            <p>獲得評價</p>
+            <p>76 <span>則</span></p>
+          </div>
+          <div class="list-text-completed">
+            <p>已完成訂單</p>
+            <p>208<span>件</span></p>
+          </div>
+        </div>
+        
+
+      </div>
+    </li>
+    <li class="swiper-slide baby-sitter-list-item-3">
+      <div class="list-banner"></div>
+      <div class="list-text text-secondary font-weight-bold">
+        <div class="avatar">
+          <img src="./assets/images/person-3.png" alt="Jamie">
+        </div>
+        <h4 >Yvonne</h4>
+        <p>寄宿、美容、寵物行為訓練</p>
+        <a href="#" class="btn btn-primary list-appointment">預約</a>
+
+        <div class="list-feedback">
+          <div class="list-text-review">
+            <p>獲得評價</p>
+            <p>198 <span>則</span></p>
+          </div>
+          <div class="list-text-completed">
+            <p>已完成訂單</p>
+            <p>580<span>件</span></p>
+          </div>
+        </div>
+        
+
+      </div>
+    </li>
+    <li class="swiper-slide baby-sitter-list-item-4">
+      <div class="list-banner"></div>
+      <div class="list-text text-secondary font-weight-bold">
+        <div class="avatar">
+          <img src="./assets/images/person-2.png" alt="Jamie">
+        </div>
+        <h4 >Lebron</h4>
+        <p>寄宿、美容、寵物行為訓練</p>
+        <a href="#" class="btn btn-primary list-appointment">預約</a>
+
+        <div class="list-feedback">
+          <div class="list-text-review">
+            <p>獲得評價</p>
+            <p>666 <span>則</span></p>
+          </div>
+          <div class="list-text-completed">
+            <p>已完成訂單</p>
+            <p>666<span>件</span></p>
+          </div>
+        </div>
+        
+
+      </div>
+    </li>
+  </ul>
+  <!-- If we need pagination -->
+  <!-- <div class="swiper-pagination"></div> -->
+
+  <!-- If we need navigation buttons -->
+  <!-- <div class="swiper-button-prev"></div> -->
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+    <!-- swiper -->
+
+
+<!-- 手機 baby-sitter-list -->
+    <ul class="baby-sitter-mobile baby-sitter-list px-0">
+      <li class="baby-sitter-list-item-1">
+        <div class="list-banner"></div>
+        <div class="list-text text-secondary font-weight-bold">
+          <div class="avatar">
+            <img src="./assets/images/person-1.png" alt="Jamie">
+          </div>
+          <h4 >Jamie</h4>
+          <p>寄宿、美容、寵物行為訓練</p>
+          <a href="#" class="btn btn-primary list-appointment">預約</a>
+
+          <div class="list-feedback">
+            <div class="list-text-review">
+              <p>獲得評價</p>
+              <p>198 <span>則</span></p>
+            </div>
+            <div class="list-text-completed">
+              <p>已完成訂單</p>
+              <p>580<span>件</span></p>
+            </div>
+          </div>
+          
+
+        </div>
+      </li>
+      <li class="baby-sitter-list-item-2">
+        <div class="list-banner"></div>
+        <div class="list-text text-secondary font-weight-bold">
+          <div class="avatar">
+            <img src="./assets/images/person-2.png" alt="Jamie">
+          </div>
+          <h4 >Tony</h4>
+          <p>美容、寵物行為訓練</p>
+          <a href="#" class="btn btn-primary list-appointment">預約</a>
+
+          <div class="list-feedback">
+            <div class="list-text-review">
+              <p>獲得評價</p>
+              <p>76 <span>則</span></p>
+            </div>
+            <div class="list-text-completed">
+              <p>已完成訂單</p>
+              <p>208<span>件</span></p>
+            </div>
+          </div>
+          
+
+        </div>
+      </li>
+      <li class="baby-sitter-list-item-3">
+        <div class="list-banner"></div>
+        <div class="list-text text-secondary font-weight-bold">
+          <div class="avatar">
+            <img src="./assets/images/person-3.png" alt="Jamie">
+          </div>
+          <h4 >Yvonne</h4>
+          <p>寄宿、美容、寵物行為訓練</p>
+          <a href="#" class="btn btn-primary list-appointment">預約</a>
+
+          <div class="list-feedback">
+            <div class="list-text-review">
+              <p>獲得評價</p>
+              <p>68 <span>則</span></p>
+            </div>
+            <div class="list-text-completed">
+              <p>已完成訂單</p>
+              <p>73<span>件</span></p>
+            </div>
+          </div>
+          
+
+        </div>
+      </li>
+      <li class="baby-sitter-list-item-4">
+        <div class="list-banner"></div>
+        <div class="list-text text-secondary font-weight-bold">
+          <div class="avatar">
+            <img src="./assets/images/person-2.png" alt="Jamie">
+          </div>
+          <h4 >Lebron</h4>
+          <p>寄宿、美容、寵物行為訓練</p>
+          <a href="#" class="btn btn-primary list-appointment">預約</a>
+
+          <div class="list-feedback">
+            <div class="list-text-review">
+              <p>獲得評價</p>
+              <p>666 <span>則</span></p>
+            </div>
+            <div class="list-text-completed">
+              <p>已完成訂單</p>
+              <p>777<span>件</span></p>
+            </div>
+          </div>
+          
+
+        </div>
+      </li>
+
+    </ul>
+    <!-- 手機 baby-sitter-list -->
+  </section>
+  
+</div>
+
+<!--index-babysitter-->
+
+
+<!-- index-reservation -->
+<div class="container">
+  <section class="index-reservation">
+    <div class="reservation-text text-secondary">
+      <h3 class="font-weight-bold">線上預約</h3>
+      <p class="font-weight-bold">即時了解您的需求，安排最適合毛孩的寵物保母</p>
+    </div>
+
+    <ul class="reservation-service px-0">
+      <li>
+        <a href="#" class="reservation-service-item item-1">
+          <img src="./assets/images/index-5.jpeg" alt="cat">
+          <div class="info">
+            <p class="font-weight-bold text-white">寵物寄宿</p>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" class="reservation-service-item item-2">
+          <img src="./assets/images/index-6.jpeg" alt="cat">
+          <div class="info">
+            <p class="font-weight-bold text-white">寵物美容</p>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" class="reservation-service-item item-3">
+          <img src="./assets/images/index-7.jpeg" alt="cat">
+          <div class="info">
+            <p class="font-weight-bold text-white">到府照顧</p>
+          </div>
+        </a>
+
+        <a href="#" class="reservation-service-item item-4">
+          <img src="./assets/images/index-8.jpeg" alt="cat">
+          <div class="info">
+            <p class="font-weight-bold text-white">遛狗保姆</p>
+          </div>
+        </a>
+      </li>
+
+
+      <li>
+        <a href="#" class="reservation-service-item item-5">
+          <img src="./assets/images/index-3.jpeg" alt="cat">
+          <div class="info">
+            <p class="font-weight-bold text-white">行為訓練</p>
+          </div>
+        </a>
+      </li>
+
+
+    </ul>
+  </section>
+</div>
+  
+
+
+<!-- index-reservation -->
+
+
+<!-- petpet now -->
+<div class="container-fluid px-0">
+  <section class="petpet-now">
+    <div class="container">
+      <h4 class="font-weight-bold text-white">PETPET目前已有</h4>
+      <ul class="petpet-now-info">
+        <li class="petpet-members text-white font-weight-bold">
+          <p>5278</p>
+          <span>人使用PETPET</span>
+        </li>
+        <li class="petpet-members text-white font-weight-bold">
+          <p>580</p>
+          <span>人成為寵物保姆</span>
+        </li>
+        <li class="petpet-members text-white font-weight-bold">
+          <p>10000+</p>
+          <span>已完成服務</span>
+        </li>
+      </ul>
+      
+    </div>
+
+
+
+  </section>
+
+
+
+
+</div>
+<!-- petpet now -->
+
+
+<!-- appointment steps -->
+<div class="container">
+  <section class="appointment-steps" id="appointment">
+    <div class="steps-text text-secondary font-weight-bold">
+      <h3>預約流程</h3>
+      <p>輕鬆三步驟，立即獲取最佳服務!</p>
+    </div>
+
+    <ul class="steps">
+      <li>
+        <p class="font-weight-bold text-secondary">1.查詢想要的服務</p>
+        <img src="./assets/images/index-10.png" alt="step-1">
+      </li>
+      <li>
+        <p class="font-weight-bold text-secondary">2.找到適合的保姆</p>
+        <img src="./assets/images/index-11.png" alt="step-2">
+      </li>
+      <li>
+        <p class="font-weight-bold text-secondary">3.填寫資料完成預約</p>
+        <img src="./assets/images/index-12.png" alt="step-3">
+      </li>
+    </ul>
+
+  </section>
+</div>
+
+
+<!-- appointment steps -->
+
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 contact">
+          <div class="container contact-content ">
+            <h4 class="help text-secondary font-weight-bold">有任何我們能幫助您的嗎?</h4>
+            <p class="text-secondary">
+              輸入電子信箱
+              </br>
+              將有專業人員在線幫您解決問題
+            </p>
+
+            <form class="contact-mail-area d-flex border-none">
+              <input type="mail" placeholder="example@gmail.com">
+              <button class="btn btn-primary rounded-0 border-0">送出</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+      <!--mail-contact -->
+      <div class="container">
+        <div class="row d-flex footer">
+
+          <div class="col-md-12  col-12 about text-secondary d-flex p-0">
+
+            <div class="col-md-3 col-3 ">
+              <ul class="about-petpet p-0">
+                <li>
+                  <h1>
+                    <a href="#">
+                      petpet
+                    </a>
+                  </h1>
+                </li>
+                <li>
+                  <a href="#" >關於我們
+
+                  </a>
+                </li>
+                <li>
+                  <a href="#" >幫助中心
+
+                  </a>
+                </li>
+                <li>
+                  <a href="#" >使用條款
+
+                  </a>
+                </li>
+                <li>
+                  <a href="#" >隱私政策
+
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 col-3">
+              <ul class="about-service">
+                <li>
+                  <a href="#" class="font-weight-bold">寵物服務</a>
+                </li>
+                <li>
+                  <a href="#" >寵物寄宿</a>
+                </li>
+                <li>
+                  <a href="#" >寵物到府保姆</a>
+                </li>
+                <li>
+                  <a href="#" >寵物美容洗澡</a>
+                </li>
+                <li>
+                  <a href="#" >寵物行為訓練</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-3">
+              <ul class="about-join-us">
+                <li>
+                  <a href="#" class="font-weight-bold">加入我們</a>
+                </li>
+                <li>
+                  <a href="#" >成為寵物保姆</a>
+                </li>
+                <li>
+                  <a href="#" >加入寵物計程車</a>
+                </li>
+                <li>
+                  <a href="#" >專屬APP下載</a>
+                </li>
+                <li>
+                  <a href="#" >相關合約條款</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 col-3 about-contact no-gutters">
+              <ul class="about-contact p-0">
+                <li>
+                  
+                  <a href="#" class="font-weight-bold">聯繫我們</a>
+                </li>
+                <li>
+                  <a href="mailto:petpet@gmail.com" class="font-weight-bold">
+                    petpet@gmail.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12 footer-contact d-flex">       
+            
+              <a href="tel:+886 7 123-4567" class="footer-contact-phone">
+                <span class="material-icons" style=" transform:translateY(5px);">
+                  call
+                  </span>
+                07-123-4567
+              </a>
+            
+            <div class="footer-logo">
+              <h1><a href="#">
+                petpet
+              </a></h1>
+            </div>
+
+            <div class="copyright text-secondary">
+              Copyright &copy; 2021 PetPet, All rights reserved.
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- about -->
+    </div>
+
+
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

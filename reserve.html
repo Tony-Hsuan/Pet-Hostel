@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- menu.ejs 取消index的 footer -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PETPET</title>
+  <!-- material disign  -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+  <!--material disign  -->
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="./assets/js/all.js">
+  <!-- js -->
+</head>
+
+<body>
+  <div class="container header">
+    <div class="row navbar d-flex">
+      <div>
+        <h1 class="logo">
+          <a href="index.html" title="PETPET Company">PETPET</a>
+        </h1>
+      </div> 
+      <!-- nav-mobile-show classname -->
+        <ul class="navbar-menu d-flex ml-auto">
+          <li><a href="service.html" title="appointment service">預約服務</a></li>
+          <li><a href="#" title="become a babysitter">成為寵物保母</a></li>
+          <li><a href="login.html" title="login" >登入</a></li>
+        </ul>
+        <div class="menu-toggler">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid reserve-page">
+    <form class="reserve-form">
+<!-- content  info-->
+        <div class="reserve-form-content">
+            <h2>預約項目</h2>
+            <ul class="reserve-form-service">
+                <li>
+                    <span class="material-icons">
+                        house
+                    </span>
+                    <p>寄宿</p>
+                </li>
+                <li>
+                    <span class="material-icons">
+                        wash
+                    </span>
+                    <p>美容</p>
+                </li>
+                <li>
+                    <span class="material-icons">
+                        roofing
+                    </span>
+                    <p>到府保姆</p>
+                </li>
+                <li>
+                    <span class="material-icons">
+                        directions_walk
+                    </span>
+                    <p>遛狗保姆</p>
+                </li>
+            </ul>
+
+
+            <div class="reserve-form-info">
+                <div class="reserver-days">
+                    <label for="date-start">選擇日期</label>
+                    <br>
+                    <input type="date" name="date-start" id="date-start">
+                    <span>至</span>
+                    <input type="date" name="date-end" id="date-end">
+                    <span>共1晚</span>
+                </div>
+
+                <div class="reserve-options">
+                    <div class="amount-area">
+                        <label for="amount">毛孩數量</label>
+                        <br>
+                        <select name="amount" id="amount">
+                            <option>1隻</option>
+                            <option>2隻</option>
+                            <option>3隻</option>
+                        </select>
+                    </div>
+
+                    <div class="breeds-area">
+                        <label for="breeds">您的毛孩是</label>
+                        <br>
+                        <select name="breeds" id="breeds">
+                            <option>小貓咪</option>
+                            <option>中貓咪</option>
+                            <option>胖貓咪</option>
+                        </select>
+                    </div>
+                    <div class="age-area">
+                        <label for="age">年齡</label>
+                        <br>
+                        <select name="age" id="age">
+                            <option>0-3歲</option>
+                            <option>4-6歲</option>
+                            <option>7歲以上</option>
+                        </select>
+                    </div>
+                </div>
+            </div>    
+        </div>
+<!-- store -->
+        <div class="reserve-form-store">
+            <div class="reserve-form-store-logo">
+                <img src="./assets/images/homestay-3.jpeg" alt="cat&girl">
+            </div>
+            <div class="reserve-form-store-text">
+                <h3>毛孩好家
+                    <span class="material-icons" style="color:#f0ad25">
+                        star
+                        star
+                        star
+                        star
+                        star
+                    </span>
+                </h3>
+                <br>
+                <div class="location">
+                    <span class="material-icons order-1">
+                        location_on
+                    </span>
+                    <h4>
+                        新竹縣、竹北市、貓貓里
+                    </h4>
+                </div>
+            </div>
+        </div>
+<!-- steps -->
+        <div class="reserve-form-steps">
+            <div class="reserve-form-steps-line">
+                <p class="font-weight-bold">預約項目</p>
+                <p>預約資料</p>
+                <p>付款資訊</p>
+            </div>
+            <input type="button" value="下一步" onclick="location.href='reserve-2.html'"  class="btn btn-primary next-step">
+        </div>
+
+
+    </form>
+</div>
+
+  <!-- menu取消footer -->
+  
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

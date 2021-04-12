@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- menu.ejs 取消index的 footer -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PETPET</title>
+  <!-- material disign  -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+  <!--material disign  -->
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="./assets/js/all.js">
+  <!-- js -->
+</head>
+
+<body>
+  <div class="container header">
+    <div class="row navbar d-flex">
+      <div>
+        <h1 class="logo">
+          <a href="index.html" title="PETPET Company">PETPET</a>
+        </h1>
+      </div> 
+      <!-- nav-mobile-show classname -->
+        <ul class="navbar-menu d-flex ml-auto">
+          <li><a href="service.html" title="appointment service">預約服務</a></li>
+          <li><a href="#" title="become a babysitter">成為寵物保母</a></li>
+          <li><a href="login.html" title="login" >登入</a></li>
+        </ul>
+        <div class="menu-toggler">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+    </div>
+  </div>
+
+  
+<div class="container">
+    <div class="login-page">
+        <div class="login-page-banner">
+            <img src="./assets/images/index-1.png" alt="dog&cat banner">
+        </div>
+        <form class="login-page-account">
+            <h3 class="font-weight-bold text-secondary">登入</h3>
+            <label for="email">電子信箱</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" pattern=".+@googld.com"
+            title="Please enter an email adderss.">
+            <br>
+            <label for="password">密碼</label>
+            <br>
+            <input type="password" name="password" id="password" placeholder="Please enter your password">
+            <br>
+            <a href="#" class="forget-password">忘記密碼</a>
+            <br>
+            <input type="checkbox" name="checkbo" id="checkbox">
+            <label for="checkbox">記住我的帳號</label>
+
+            <div class="login-page-account-social-media">
+                <a href="https://www.facebook.com/" class="login-facebook">
+                    <img src="./assets/images/facebook.svg" alt="fb-icon">
+                    Facebook
+                </a>
+
+                <a href="https://www.google.com/" class="login-google">
+                    <img src="./assets/images/google.svg" alt="google-icon">
+                    Google
+                </a>
+            </div>
+
+            <input type="submit" value="登入" class="btn btn-primary login-submit">
+            <br>
+            <a href="#" class="font-weight-bold">還沒註冊嗎?</a>
+
+        </form>
+    </div>
+</div>
+
+  <!-- menu取消footer -->
+  
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
